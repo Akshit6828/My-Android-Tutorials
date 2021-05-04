@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6E3E0">
+    <!--xmlns: is the path to be used by the android
+    orientation:  manner of the attributes will be added in the layout
+    layout_width="match_parent" : It will fit the window according to the Parent Window(eg Small phone and Tablet both will be able to use) -->
+
+
+    <!--wrap_content: Height will be adjusted acc to the input lines from the user-->
+    <EditText
+        android:layout_marginTop="80dp"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  >
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="Enter phone">
+
+    </EditText>
+
+    <EditText
+        android:layout_marginTop="80dp"
+        android:hint="Enter Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  >
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="80dp"
+        android:hint="Enter Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  >
+
+    </EditText>
+    <!--layout_gravity="center": It will Center the button from left-right manner.
+    layout_gravity works differently for different layouts
+    Example: It will align from left-right to center in Linear and for Top-bottom-left-right for another layout-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center">
+
+    </Button>
+
+</LinearLayout>

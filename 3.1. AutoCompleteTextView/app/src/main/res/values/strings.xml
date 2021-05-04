@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AutoComplete TextView</string>
+    <string-array name="places">
+        <item>Amritsar</item>
+        <item>Amravati</item>
+        <item>Bathinda</item>
+        <item>Balochistan</item>
+        <item>Chandigarh</item>
+        <item>Chandarpur</item>
+    </string-array>
+</resources>
