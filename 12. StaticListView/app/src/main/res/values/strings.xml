@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Static ListView</string>
+    <string-array name="Hindi_poets">
+        <item>Mahadevi Verma</item>
+        <item>Munshi PremChandar</item>
+        <item>Gulzar</item>
+        <item>Mailthili Sharan Gupt</item>
+        <item>Kabir Das</item>
+    </string-array>
+    <string-array name="Birth">
+        <item></item>
+    </string-array>
+</resources>
